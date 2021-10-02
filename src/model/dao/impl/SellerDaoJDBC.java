@@ -109,7 +109,7 @@ public class SellerDaoJDBC implements SellerDao {
 	    int rows = st.executeUpdate();
 	    
 	    if(rows == 0) {
-		System.out.println("Nenhum seller deletado");
+		System.out.println("No rows affected!");
 	    }
 	    
 	}
